@@ -1,0 +1,50 @@
+<!-- Part 3: Integrated Interactive Webpage -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Indigenous Populations in Canada Visualizations</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .iframe-container {
+            margin-bottom: 40px;
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        iframe {
+            width: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Indigenous Populations in Canada (2021)</h1>
+
+    <div class="iframe-container">
+        <h2>Choropleth Map: Population Distribution</h2>
+        <iframe src="map.html" height="600" title="Interactive Map of Indigenous Populations"></iframe>
+    </div>
+
+    <div class="iframe-container">
+        <h2>Scatter Plot: Demographic Trends</h2>
+        <iframe src="scatter.html" height="600" title="Scatter Plot of Demographic Trends"></iframe>
+    </div>
+
+    <div class="iframe-container">
+        <h2>Donut Subplots: Indigenous Population Composition</h2>
+        <iframe src="donuts.html" height="500" title="Donut Subplots of Top 3 Regions"></iframe>
+    </div>
+
+</body> 
+</html>
